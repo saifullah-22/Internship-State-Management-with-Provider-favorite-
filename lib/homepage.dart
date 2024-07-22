@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
     final provider = Provider.of<FavouriteProvider>(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Favourite App"),
+        title: const Text("Provider Statemanagement"),
         actions: [
           IconButton(
             onPressed: (){
